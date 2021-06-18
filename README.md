@@ -9,7 +9,7 @@ goals. Some suggestions are listed below, but try to be creative!
 
 ## Requirements
 
-- [ ] Complete all of the _Deliverables_.
+- [x] Complete all of the _Deliverables_.
 - [ ] Build out at least 1 stretch goal feature.
 
 ## Setup
@@ -80,42 +80,42 @@ baseline deliverables you need to complete:
 
 ### Viewing and Displaying Notes
 
-- [ ] Display all notes in the left sidebar.
-- [ ] Displayed sidebar notes should show the title and a truncated body.
-- [ ] When a note from the sidebar is clicked, display its contents in the right
+- [x] Display all notes in the left sidebar.
+- [x] Displayed sidebar notes should show the title and a truncated body.
+- [x] When a note from the sidebar is clicked, display its contents in the right
       panel.
 
 ![completed display notes](https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-evernote-json-server-guided-project/master/_screenshots/react-evernote-display.gif)
 
 ### Filtering Notes
 
-- [ ] Implement the filter to search through your notes list by title.
+- [x] Implement the filter to search through your notes list by title.
 
 ![completed filter notes](https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-evernote-json-server-guided-project/master/_screenshots/react-evernote-filter.gif)
 
 ### Creating Notes
 
-- [ ] At the bottom of your left sidebar, show a `New` button.
-- [ ] Clicking `New` will create a new note via a `POST` request with some
+- [x] At the bottom of your left sidebar, show a `New` button.
+- [x] Clicking `New` will create a new note via a `POST` request with some
       default title and body. **NOTE**: You don't have to use any kind of `<form>`
       element for this deliverable; you can create an object with a default title
       and body text when the button is clicked. Make sure to check the
       [Routes](#Routes) section of this README to determine what data you need in
       the body of your request.
-- [ ] This new note should appear in the sidebar.
+- [x] This new note should appear in the sidebar.
 
 ![completed create notes](https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-evernote-json-server-guided-project/master/_screenshots/react-evernote-create.gif)
 
 ### Editing Notes
 
-- [ ] When displaying a note in the right panel, show an `Edit` button.
-- [ ] Clicking the `Edit` button will allow the user to edit the title and body
+- [x] When displaying a note in the right panel, show an `Edit` button.
+- [x] Clicking the `Edit` button will allow the user to edit the title and body
       in the right panel.
-- [ ] When in edit mode, also show a `Save` button which saves the note via a
+- [x] When in edit mode, also show a `Save` button which saves the note via a
       `PATCH` request.
-- [ ] When in edit mode, also show a `Cancel` button which discards any changes
+- [x] When in edit mode, also show a `Cancel` button which discards any changes
       and reverts back to displaying the note.
-- [ ] Clicking a different note while in edit mode should discard your changes
+- [x] Clicking a different note while in edit mode should discard your changes
       and display the new note instead.
 
 ![completed edit notes](https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-evernote-json-server-guided-project/master/_screenshots/react-evernote-edit.gif)
@@ -136,3 +136,4 @@ Some suggestions:
 - Rich text formatting
 - Tagging
 - Emailing notes
+- Delete a note

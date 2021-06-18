@@ -177,7 +177,7 @@ button, input[type="submit"] {
   letter-spacing: 0.5px;
 }
 
-button:hover, .nav-bar:hover, input[type="submit"]:hover {
+button:hover, .nav-bar:hover, input[type="submit"]:hover, .delete {
   background-image: linear-gradient(to right top, #8A2387, #E94057, #F27121);
   background-repeat: no-repeat;
 }
